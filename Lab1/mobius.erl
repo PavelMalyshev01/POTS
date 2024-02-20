@@ -12,6 +12,7 @@ is_prime_helper(N, Divider) ->
 	end.
 
 % Список простых сомножителей числа N
+prime_factors(1) -> 1;
 prime_factors(N) when N > 1 ->
     prime_factors_helper(N, 2, []).
 
