@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+>
+
+<channel rdf:about="https://slashdot.org/">
+<title>Slashdot</title>
+<link>https://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2016, SlashdotMedia. All Rights Reserved.</dc:rights>
+<dc:date>2024-03-12T11:09:17+00:00</dc:date>
+<dc:publisher>Dice</dc:publisher>
+<dc:creator>help@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://science.slashdot.org/story/24/03/12/0248209/conflicting-values-for-hubble-constant-not-due-to-measurement-error-study-finds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/24/03/12/001216/3d-images-of-over-13000-museum-specimens-now-free-to-everyone?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/24/03/11/2342228/automakers-are-sharing-consumers-driving-behavior-with-insurance-companies?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://slashdot.org/story/24/03/11/2352254/former-activision-ceo-bobby-kotick-considering-buying-tiktok?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/24/03/11/2319210/over-15000-roku-accounts-sold-to-buy-streaming-subscriptions-devices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/24/03/11/238248/surgeons-perform-uks-first-operation-using-apples-vision-pro-headset?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/24/03/11/2044247/youtube-stops-recommending-videos-when-signed-out-of-google?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://it.slashdot.org/story/24/03/11/2034256/midjourney-bans-all-stability-ai-employees-over-alleged-data-scraping?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://apple.slashdot.org/story/24/03/11/2030220/airpods-pro-to-gain-hearing-aid-mode-in-ios-18?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/24/03/11/2026249/eus-use-of-microsoft-365-found-to-breach-data-protection-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/24/03/11/1926208/worldcoin-fails-to-get-injunction-against-spains-privacy-suspension?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/24/03/11/1934259/automakers-are-sharing-consumers-driving-behavior-with-insurance-companies?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/24/03/11/1838227/boeings-woes-continue-as-50-injured-on-australia-new-zealand-flight?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/24/03/11/1910201/u-of-texas-at-austin-will-return-to-standardized-test-requirement?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/24/03/11/189248/us-will-do-whatever-it-takes-to-curb-china-tech-raimondo-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="https://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="https://slashdot.org/search.pl" />
+</channel>
+<image rdf:about="https://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>https://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>https://slashdot.org/</link>
+</image>
+<item rdf:about="https://science.slashdot.org/story/24/03/12/0248209/conflicting-values-for-hubble-constant-not-due-to-measurement-error-study-finds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Conflicting Values For Hubble Constant Not Due To Measurement Error, Study Finds</title>
+<link>https://science.slashdot.org/story/24/03/12/0248209/conflicting-values-for-hubble-constant-not-due-to-measurement-error-study-finds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Jennifer Ouellette reports via Ars Technica: Astronomers have made new measurements of the Hubble Constant, a measure of how quickly the Universe is expanding, by combining data from the Hubble Space Telescope and the James Webb Space Telescope. Their results confirmed the accuracy of Hubble's earlier measurement of the constant's value, according to their recent paper published in The Astrophysical Journal Letters, with implications for a long-standing discrepancy in values obtained by different observational methods known as the "Hubble tension."
+ 
+There was a time when scientists believed the Universe was static, but that changed with Albert Einstein's general theory of relativity. Alexander Friedmann published a set of equations showing that the Universe might actually be expanding in 1922, with Georges Lemaitre later making an independent derivation to arrive at that same conclusion. Edwin Hubble confirmed this expansion with observational data in 1929. Prior to this, Einstein had been trying to modify general relativity by adding a cosmological constant in order to get a static universe from his theory; after Hubble's discovery, legend has it, he referred to that effort as his biggest blunder. The article notes how scientists have employed different methods to calculate the Hubble Constant, including observing nearby celestial objects, analyzing gravitational waves from cosmic events, and examining the Cosmic Microwave Background (CMB). However, these approaches yield differing values, highlighting the challenge in pinning down the constant precisely. A recent effort involved making additional observations of Cepheid variable stars, correlating them with the Hubble data. The results further confirmed the accuracy of the Hubble data.
+ 
+"We've now spanned the whole range of what Hubble observed, and we can rule out a measurement error as the cause of the Hubble Tension with very high confidence," said co-author and team leader Adam Riess, a physicist at Johns Hopkins University. "Combining Webb and Hubble gives us the best of both worlds. We find that the Hubble measurements remain reliable as we climb farther along the cosmic distance ladder. With measurement errors negated, what remains is the real and exciting possibility that we have misunderstood the Universe."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Conflicting+Values+For+Hubble+Constant+Not+Due+To+Measurement+Error%2C+Study+Finds%3A+https%3A%2F%2Fscience.slashdot.org%2Fstory%2F24%2F03%2F12%2F0248209%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F24%2F03%2F12%2F0248209%2Fconflicting-values-for-hubble-constant-not-due-to-measurement-error-study-finds%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/24/03/12/0248209/conflicting-values-for-hubble-constant-not-due-to-measurement-error-study-finds?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254837&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-03-12T10:00:00+00:00</dc:date>
+<dc:subject>space</dc:subject>
+<slash:department>something-else-at-play</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>2</slash:comments>
+<slash:hit_parade>2,2,2,2,0,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://science.slashdot.org/story/24/03/12/001216/3d-images-of-over-13000-museum-specimens-now-free-to-everyone?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>3D Images of Over 13,000 Museum Specimens Now Free To Everyone</title>
+<link>https://science.slashdot.org/story/24/03/12/001216/3d-images-of-over-13000-museum-specimens-now-free-to-everyone?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>The openVertebrate (oVert) project is now complete, offering free online access to incredibly detailed 3D images of over 13,000 vertebrates. New Atlas reports: More than a research project, oVert was a collaboration between like-minded specialists across 25 institutions whose sole objective was to add value to museum collections by making them more widely available. Importantly, these images provide an insight that would only otherwise be obtained by destructive dissection and tissue sampling. Over the course of six years, project members took CT scans of more than half the classes, or genera, of all amphibians, reptiles, fishes, birds, and mammals, rendering models that provide an intimate look at the creatures, inside and out. [...]
+ 
+For a working example of the incredible detail and information contained in oVert's images, head to Sketchfab to view a sample of interactive 3D models like the olive sea snake. Or go to MorphoSource to access the full oVert repository. [...] If you have 30 minutes to spare, check out the full video produced by the Florida Museum, which showcases a collection of diverse oVert specimens. A study presenting a summary of the oVert project was published in the journal BioScience.
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=3D+Images+of+Over+13%2C000+Museum+Specimens+Now+Free+To+Everyone%3A+https%3A%2F%2Fscience.slashdot.org%2Fstory%2F24%2F03%2F12%2F001216%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F24%2F03%2F12%2F001216%2F3d-images-of-over-13000-museum-specimens-now-free-to-everyone%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/24/03/12/001216/3d-images-of-over-13000-museum-specimens-now-free-to-everyone?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254727&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-03-12T07:00:00+00:00</dc:date>
+<dc:subject>science</dc:subject>
+<slash:department>first-of-its-kind</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>3</slash:comments>
+<slash:hit_parade>3,3,2,2,1,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/24/03/11/2342228/automakers-are-sharing-consumers-driving-behavior-with-insurance-companies?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Automakers Are Sharing Consumers' Driving Behavior With Insurance Companies</title>
+<link>https://tech.slashdot.org/story/24/03/11/2342228/automakers-are-sharing-consumers-driving-behavior-with-insurance-companies?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from the New York Times: Kenn Dahl says he has always been a careful driver. The owner of a software company near Seattle, he drives a leased Chevrolet Bolt. He's never been responsible for an accident. So Mr. Dahl, 65, was surprised in 2022 when the cost of his car insurance jumped by 21 percent. Quotes from other insurance companies were also high. One insurance agent told him his LexisNexis report was a factor. LexisNexis is a New York-based global data broker with a "Risk Solutions" division that caters to the auto insurance industry and has traditionally kept tabs on car accidents and tickets. Upon Mr. Dahl's request, LexisNexis sent him a 258-page "consumer disclosure report," which it must provide per the Fair Credit Reporting Act. What it contained stunned him: more than 130 pages detailing each time he or his wife had driven the Bolt over the previous six months. It included the dates of 640 trips, their start and end times, the distance driven and an accounting of any speeding, hard braking or sharp accelerations. The only thing it didn't have is where they had driven the car. On a Thursday morning in June for example, the car had been driven 7.33 miles in 18 minutes; there had been two rapid accelerations and two incidents of hard braking.
+ 
+According to the report, the trip details had been provided by General Motors -- the manufacturer of the Chevy Bolt. LexisNexis analyzed that driving data to create a risk score "for insurers to use as one factor of many to create more personalized insurance coverage," according to a LexisNexis spokesman, Dean Carney. Eight insurance companies had requested information about Mr. Dahl from LexisNexis over the previous month. "It felt like a betrayal," Mr. Dahl said. "They're taking information that I didn't realize was going to be shared and screwing with our insurance." In recent years, insurance companies have offered incentives to people who install dongles in their cars or download smartphone apps that monitor their driving, including how much they drive, how fast they take corners, how hard they hit the brakes and whether they speed. But "drivers are historically reluctant to participate in these programs," as Ford Motor put it in apatent application (PDF) that describes what is happening instead: Car companies are collecting information directly from internet-connected vehicles for use by the insurance industry.
+ 
+Sometimes this is happening with a driver's awareness and consent. Car companies have established relationships with insurance companies, so that if drivers want to sign up for what's called usage-based insurance -- where rates are set based on monitoring of their driving habits -- it's easy to collect that data wirelessly from their cars. But in other instances, something much sneakier has happened. Modern cars are internet-enabled, allowing access to services like navigation, roadside assistance and car apps that drivers can connect to their vehicles to locate them or unlock them remotely. In recent years, automakers, including G.M., Honda, Kia and Hyundai, have started offering optional features in their connected-car apps that rate people's driving. Some drivers may not realize that, if they turn on these features, the car companies then give information about how they drive to data brokers like LexisNexis. Automakers and data brokers that have partnered to collect detailed driving data from millions of Americans say they have drivers' permission to do so. But the existence of these partnerships is nearly invisible to drivers, whose consent is obtained in fine print and murky privacy policies that few read. Especially troubling is that some drivers with vehicles made by G.M. say they were tracked even when they did not turn on the feature -- called OnStar Smart Driver -- and that their insurance rates went up as a result.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Automakers+Are+Sharing+Consumers'+Driving+Behavior+With+Insurance+Companies%3A+https%3A%2F%2Ftech.slashdot.org%2Fstory%2F24%2F03%2F11%2F2342228%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F24%2F03%2F11%2F2342228%2Fautomakers-are-sharing-consumers-driving-behavior-with-insurance-companies%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/24/03/11/2342228/automakers-are-sharing-consumers-driving-behavior-with-insurance-companies?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254703&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-03-12T03:30:00+00:00</dc:date>
+<dc:subject>transportation</dc:subject>
+<slash:department>behind-the-scenes</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>79</slash:comments>
+<slash:hit_parade>79,79,75,66,13,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://slashdot.org/story/24/03/11/2352254/former-activision-ceo-bobby-kotick-considering-buying-tiktok?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Former Activision CEO Bobby Kotick Considering Buying TikTok</title>
+<link>https://slashdot.org/story/24/03/11/2352254/former-activision-ceo-bobby-kotick-considering-buying-tiktok?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>According to the Wall Street Journal (paywalled), former Activision CEO Bobby Kotick is reportedly considering buying TikTok. PCMag reports: Kotick floated the idea at a dinner at an Allen &amp;amp; Co. conference earlier this week with a group of potential partners, including OpenAI CEO Sam Altman, the Journal says. Kotick left Activision in late December after more than 30 years following the approval of the Microsoft merger and a tumultuous period that included a damaging discrimination lawsuit. And while he got a hefty golden parachute, it's probably not enough to buy TikTok, so he'll need partners with deep pockets. The report comes amid a vote in the House that would require TikTok to be sold or banned in the United States.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Former+Activision+CEO+Bobby+Kotick+Considering+Buying+TikTok%3A+https%3A%2F%2Fslashdot.org%2Fstory%2F24%2F03%2F11%2F2352254%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fslashdot.org%2Fstory%2F24%2F03%2F11%2F2352254%2Fformer-activision-ceo-bobby-kotick-considering-buying-tiktok%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://slashdot.org/story/24/03/11/2352254/former-activision-ceo-bobby-kotick-considering-buying-tiktok?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254709&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-03-12T02:02:00+00:00</dc:date>
+<dc:subject>business</dc:subject>
+<slash:department>what-to-expect</slash:department>
+<slash:section>slashdot</slash:section>
+<slash:comments>28</slash:comments>
+<slash:hit_parade>28,28,21,20,4,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/24/03/11/2319210/over-15000-roku-accounts-sold-to-buy-streaming-subscriptions-devices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Over 15,000 Roku Accounts Sold To Buy Streaming Subscriptions, Devices</title>
+<link>https://yro.slashdot.org/story/24/03/11/2319210/over-15000-roku-accounts-sold-to-buy-streaming-subscriptions-devices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Over 15,000 Roku customers were hacked and used to make fraudulent purchases of hardware and streaming subscriptions. According to BleepingComputer, the threat actors were "selling the stolen accounts for as little as $0.50 per account, allowing purchasers to use stored credit cards to make illegal purchases." From the report: On Friday, Roku first disclosed the data breach, warning that 15,363 customer accounts were hacked in a credential stuffing attack. A credential stuffing attack is when threat actors collect credentials exposed in data breaches and then attempt to use them to log in to other sites, in this case, Roku.com. The company says that once an account was breached, it allowed threat actors to change the information on the account, including passwords, email addresses, and shipping addresses. This effectively locked a user out of the account, allowing the threat actors to make purchases using stored credit card information without the legitimate account holder receiving order confirmation emails.
+ 
+"It appears likely that the same username/password combinations had been used as login information for such third-party services as well as certain individual Roku accounts," reads the data breach notice. "As a result, unauthorized actors were able to obtain login information from third-party sources and then use it to access certain individual Roku accounts. "After gaining access, they then changed the Roku login information for the affected individual Roku accounts, and, in a limited number of cases, attempted to purchase streaming subscriptions." Roku says that it secured the impacted accounts and forced a password reset upon detecting the incident. Additionally, the platform's security team investigated for any charges due to unauthorized purchases performed by the hackers and took steps to cancel the relevant subscriptions and refund the account holders.
+ 
+A researcher told BleepingComputer last week that the threat actors have been using a Roku config to perform credential stuffing attacks for months, bypassing brute force attack protections and captchas by using specific URLs and rotating through lists of proxy servers. Successfully hacked accounts are then sold on stolen account marketplaces for as little as 50 cents, as seen below where 439 accounts are being sold. The seller of these accounts provides information on how to change information on the account to make fraudulent purchases. Those who purchase the stolen accounts hijack them with their own information and use stored credit cards to purchase cameras, remotes, soundbars, light strips, and streaming boxes. After making their purchases, it is common for them to share screenshots of redacted order confirmation emails on Telegram channels associated with the stolen account marketplaces.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Over+15%2C000+Roku+Accounts+Sold+To+Buy+Streaming+Subscriptions%2C+Devices%3A+https%3A%2F%2Fyro.slashdot.org%2Fstory%2F24%2F03%2F11%2F2319210%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F24%2F03%2F11%2F2319210%2Fover-15000-roku-accounts-sold-to-buy-streaming-subscriptions-devices%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/24/03/11/2319210/over-15000-roku-accounts-sold-to-buy-streaming-subscriptions-devices?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254677&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-03-12T01:25:00+00:00</dc:date>
+<dc:subject>privacy</dc:subject>
+<slash:department>another-day-another-breach</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>14</slash:comments>
+<slash:hit_parade>14,14,12,8,2,1,1</slash:hit_parade>
+</item>
+<item rdf:about="https://science.slashdot.org/story/24/03/11/238248/surgeons-perform-uks-first-operation-using-apples-vision-pro-headset?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Surgeons Perform UK's First Operation Using Apple's Vision Pro Headset</title>
+<link>https://science.slashdot.org/story/24/03/11/238248/surgeons-perform-uks-first-operation-using-apples-vision-pro-headset?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Surgeons in the United Kingdom have performed the first operation in the country using Apple's Vision Pro headset. TechSpot reports: During a recent operation to repair a patient's spine at the private Cromwell Hospital in London, a scrub nurse working alongside the surgeon used the Vision Pro to help prepare, keep track of the procedure, and choose the right tools, reports the Daily Mail. This marked the first operation in the UK where the Vision Pro was used. The software running on Apple's headset during the operation comes from US company eXeX, which has made similar programs for Microsoft's HoloLens. It offers nurses and technicians both holographic and touch-free access to the surgical setup and the procedural guides from within the sterile field of the operating room, according to the press release. The software also tracks each stage of an operation and can measure how well the op went compared to previous procedures performed by other surgeons.
+ 
+"It eliminates human error and eliminates the guesswork," said Suvi Verho, lead scrub nurse at London Independent Hospital. "It gives you confidence in surgery." While this marked the first time that the Vision Pro was used during a UK surgery, the first-ever time the device was used in an operating room was last month, just three days after its release, when Orlando resident and world-renowned Neurosurgeon Dr. Robert Masson wore it during several spine reconstruction surgeries. "We are in a new era of surgery, and for the first time, our surgical teams have the brilliance of visual holographic guidance and maps, improving visuospatial and temporal orientation for each surgical team and for each surgery in all specialties," said Masson.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Surgeons+Perform+UK's+First+Operation+Using+Apple's+Vision+Pro+Headset%3A+https%3A%2F%2Fscience.slashdot.org%2Fstory%2F24%2F03%2F11%2F238248%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F24%2F03%2F11%2F238248%2Fsurgeons-perform-uks-first-operation-using-apples-vision-pro-headset%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/24/03/11/238248/surgeons-perform-uks-first-operation-using-apples-vision-pro-headset?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254661&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-03-12T00:45:00+00:00</dc:date>
+<dc:subject>medicine</dc:subject>
+<slash:department>new-era-of-surgery</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>23</slash:comments>
+<slash:hit_parade>23,23,22,19,4,1,1</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/24/03/11/2044247/youtube-stops-recommending-videos-when-signed-out-of-google?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>YouTube Stops Recommending Videos When Signed Out of Google</title>
+<link>https://news.slashdot.org/story/24/03/11/2044247/youtube-stops-recommending-videos-when-signed-out-of-google?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from BleepingComputer: YouTube is no longer showing recommended videos to users logged out of a Google account or using Incognito mode, making people concerned they are being bullied into always being signed into the service. This change, which is now rolling out, shows a simple YouTube homepage without any videos or tips on what to watch. Before, even in incognito mode or when not logged in, Google would still show you video suggestions. Now, users see a message saying "Get Started" and "Start watching videos to help us build a feed of videos you'll love" when they open YouTube in incognito mode, with videos no longer being recommended.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=YouTube+Stops+Recommending+Videos+When+Signed+Out+of+Google%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F03%2F11%2F2044247%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F03%2F11%2F2044247%2Fyoutube-stops-recommending-videos-when-signed-out-of-google%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/24/03/11/2044247/youtube-stops-recommending-videos-when-signed-out-of-google?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254535&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-03-12T00:02:00+00:00</dc:date>
+<dc:subject>youtube</dc:subject>
+<slash:department>unintentionally-good</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>61</slash:comments>
+<slash:hit_parade>61,61,60,51,15,6,4</slash:hit_parade>
+</item>
+<item rdf:about="https://it.slashdot.org/story/24/03/11/2034256/midjourney-bans-all-stability-ai-employees-over-alleged-data-scraping?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Midjourney Bans All Stability AI Employees Over Alleged Data Scraping</title>
+<link>https://it.slashdot.org/story/24/03/11/2034256/midjourney-bans-all-stability-ai-employees-over-alleged-data-scraping?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Jess Weatherbed reports via The Verge: Midjourney says it has banned Stability AI staffers from using its service, accusing employees at the rival generative AI company of causing a systems outage earlier this month during an attempt to scrape Midjourney's data. Midjourney posted an update to its Discord server on March 2nd that acknowledged an extended server outage was preventing generated images from appearing in user galleries. In a summary of a business update call on March 6th, Midjourney claimed that "botnet-like activity from paid accounts" -- which the company specifically links to Stability AI employees -- was behind the outage.
+ 
+According to Midjourney user Nick St. Pierre on X, who listened to the call, Midjourney said that the service was brought down because "someone at Stability AI was trying to grab all the prompt and image pairs in the middle of a night on Saturday." St. Pierre said that Midjourney had linked multiple paid accounts to an individual on the Stability AI data team. In its summary of the business update call on March 6th (which Midjourney refers to as "office hours"), the company says it's banning all Stability AI employees from using its service "indefinitely" in response to the outage. Midjourney is also introducing a new policy that will similarly ban employees of any company that exercises "aggressive automation" or causes outages to the service.
+ 
+St. Pierre flagged the accusations to Stability AI CEO Emad Mostaque, who replied on X, saying he was investigating the situation and that Stability hadn't ordered the actions in question. "Very confusing how 2 accounts would do this team also hasn't been scraping as we have been using synthetic &amp;amp; other data given SD3 outperforms all other models," said Mostaque, referring to the Stable Diffusion 3 AI model currently in preview. He claimed that if the outage was caused by a Stability employee, then it was unintentional and "obviously not a DDoS attack." Midjourney founder David Holz responded to Mostaque in the same thread, claiming to have sent him "some information" to help with his internal investigation.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Midjourney+Bans+All+Stability+AI+Employees+Over+Alleged+Data+Scraping%3A+https%3A%2F%2Fit.slashdot.org%2Fstory%2F24%2F03%2F11%2F2034256%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fit.slashdot.org%2Fstory%2F24%2F03%2F11%2F2034256%2Fmidjourney-bans-all-stability-ai-employees-over-alleged-data-scraping%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://it.slashdot.org/story/24/03/11/2034256/midjourney-bans-all-stability-ai-employees-over-alleged-data-scraping?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254527&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-03-11T23:20:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>botnet-like-activity</slash:department>
+<slash:section>it</slash:section>
+<slash:comments>10</slash:comments>
+<slash:hit_parade>10,9,7,6,1,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://apple.slashdot.org/story/24/03/11/2030220/airpods-pro-to-gain-hearing-aid-mode-in-ios-18?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>AirPods Pro To Gain 'Hearing Aid Mode' In iOS 18</title>
+<link>https://apple.slashdot.org/story/24/03/11/2030220/airpods-pro-to-gain-hearing-aid-mode-in-ios-18?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>According to Bloomberg's Mark Gurman, AirPods Pro will gain a new "hearing aid mode" with the release of iOS 18 later this year. MacRumors reports: Writing in the subscriber edition of his regular Power On newsletter, Gurman claims that the "big news" for AirPods Pro in the near term will be support for a hearing aid-style function when iOS 18 drops in the fall. To be clear, this isn't the first time we have heard a potential hearing aid feature for AirPods Pro. The first rumor appeared in a 2021 Wall Street Journal report, but it was previously framed as a feature that would be exclusive to a next-generation model of AirPods Pro. However, Apple in September 2022 released the second-generation AirPods Pro, while the company more recently released a refreshed model with a USB-C port.
+ 
+AirPods Pro already offer a Conversation Boost feature, which boosts the volume and clarity of people directly in front of the wearer, but Apple has not advertised the earbuds as a hearing aid device, because this would require FDA regulatory approval. As per the FDA, a hearing aid is defined as "any wearable device designed for, offered for the purpose of, or represented as aiding persons with or compensating for, impaired hearing." This definition encompasses both air-conduction and bone-conduction devices in a variety of styles (for example, behind-the-ear, in-the-canal, or body worn). [...] It is not yet clear whether Apple will need FDA clearance in order to make explicit or implicit claims about the rumored "hearing aid mode," which may not even adopt this exact name. If, for example, Apple subsequently suggests that AirPods Pro are for users with certain types or severity of hearing loss/impaired hearing, or for use as an alternative to a hearing aid, then they will require FDA regulatory approval to be marketed as such.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=AirPods+Pro+To+Gain+'Hearing+Aid+Mode'+In+iOS+18%3A+https%3A%2F%2Fapple.slashdot.org%2Fstory%2F24%2F03%2F11%2F2030220%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fapple.slashdot.org%2Fstory%2F24%2F03%2F11%2F2030220%2Fairpods-pro-to-gain-hearing-aid-mode-in-ios-18%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://apple.slashdot.org/story/24/03/11/2030220/airpods-pro-to-gain-hearing-aid-mode-in-ios-18?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254507&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-03-11T22:40:00+00:00</dc:date>
+<dc:subject>ios</dc:subject>
+<slash:department>can-you-hear-me-now?</slash:department>
+<slash:section>apple</slash:section>
+<slash:comments>20</slash:comments>
+<slash:hit_parade>20,19,18,12,3,2,2</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/24/03/11/2026249/eus-use-of-microsoft-365-found-to-breach-data-protection-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>EU's Use of Microsoft 365 Found To Breach Data Protection Rules</title>
+<link>https://yro.slashdot.org/story/24/03/11/2026249/eus-use-of-microsoft-365-found-to-breach-data-protection-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from TechCrunch: A lengthy investigation into the European Union's use of Microsoft 365 has found the Commission breached the bloc's data protection rules through its use of the cloud-based productivity software. Announcing its decision in a press release today, the European Data Protection Supervisor (EDPS) said the Commission infringed "several key data protection rules when using Microsoft 365."
+ "The Commission did not sufficiently specify what types of personal data are to be collected and for which explicit and specified purposes when using Microsoft 365," the data supervisor, Wojciech Wiewiorowski, wrote, adding: "The Commission's infringements as data controller also relate to data processing, including transfers of personal data, carried out on its behalf." The EDPS has imposed corrective measures requiring the Commission to address the compliance problems it has identified by December 9 2024, assuming it continues to use Microsoft's cloud suite. The regulator, which oversees' EU institutions' compliance with data protection rules, opened a probe of the Commission's use of Microsoft 365 and other U.S. cloud services back in May 2021. [...]
+ 
+The Commission confirmed receipt of the EDPB's decision and said it will need to analyze the reasoning "in detail" before taking any decision on how to proceed. In a series of statements during a press briefing, it expressed confidence that it complies with "the applicable data protection rules, both in fact and in law." It also said "various improvements" have been made to contracts, with the EDPS, during its investigation. "We have been cooperating fully with the EDPS since the start of the investigation, by providing all relevant documents and information to the EDPS and by following up on the issues that have been raised in the course of the investigation," it said. "The Commission has always been ready to implement, and grateful for receiving, any substantiated recommendation from the EDPS. Data protection is a top priority for the Commission."
+ 
+"The Commission has always been fully committed to ensuring that its use of Microsoft M365 is compliant with the applicable data protection rules and will continue to do so. The same applies to all other software acquired by the Commission," it went on, further noting: "New data protection rules for the EU institutions and bodies came into force on 11 December 2018. The Commission is actively pursuing ambitious and safe adequacy frameworks with international partners. The Commission applies those rules in all its processes and contracts, including with individual companies such as Microsoft." While the Commission's public statements reiterated that it's committed to compliance with its legal obligations, it also claimed that "compliance with the EDPS decision unfortunately seems likely to undermine the current high level of mobile and integrated IT services." "This applies not only to Microsoft but potentially also to other commercial IT services. But we need to first analyze the decision's conclusions and the underlying reasons in detail. We cannot provide further comments until we have concluded the analysis," it added.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=EU's+Use+of+Microsoft+365+Found+To+Breach+Data+Protection+Rules%3A+https%3A%2F%2Fyro.slashdot.org%2Fstory%2F24%2F03%2F11%2F2026249%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F24%2F03%2F11%2F2026249%2Feus-use-of-microsoft-365-found-to-breach-data-protection-rules%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/24/03/11/2026249/eus-use-of-microsoft-365-found-to-breach-data-protection-rules?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254505&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2024-03-11T22:00:00+00:00</dc:date>
+<dc:subject>eu</dc:subject>
+<slash:department>well-that's-awkward</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>26</slash:comments>
+<slash:hit_parade>26,24,23,20,2,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/24/03/11/1926208/worldcoin-fails-to-get-injunction-against-spains-privacy-suspension?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Worldcoin Fails To Get Injunction Against Spain's Privacy Suspension</title>
+<link>https://yro.slashdot.org/story/24/03/11/1926208/worldcoin-fails-to-get-injunction-against-spains-privacy-suspension?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Controversial eyeball scanning startup Worldcoin has failed to get an injunction against a temporary suspension ordered Wednesday by Spain's data protection authority, the AEPD. TechCrunch: The authority used emergency powers contained in the European Union's General Data Protection Regulation (GDPR) to make the local order, which can apply for up to three months. It said it was taking the precautionary measure against Worldcoin's operator, Tools for Humanity, in light of the sensitive nature of the biometric data being collected, which could pose a high risk to the rights and freedoms of individuals. It also raised specific concerns about risks to minors, citing complaints received. 
+
+Today a Madrid-based High Court declined to grant an injunction against the AEPD's order, saying that the "safeguarding of public interest" must be prioritized. As we reported Friday, the crypto blockchain biometrics digital identity firm shuttered scanning in the market shortly after the AEPD order -- which gave it 72 hours to comply. Today's court decision means Worldcoin's services remain suspended in Spain -- for up to three months.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Worldcoin+Fails+To+Get+Injunction+Against+Spain's+Privacy+Suspension%3A+https%3A%2F%2Fyro.slashdot.org%2Fstory%2F24%2F03%2F11%2F1926208%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F24%2F03%2F11%2F1926208%2Fworldcoin-fails-to-get-injunction-against-spains-privacy-suspension%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/24/03/11/1926208/worldcoin-fails-to-get-injunction-against-spains-privacy-suspension?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254441&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2024-03-11T21:20:00+00:00</dc:date>
+<dc:subject>privacy</dc:subject>
+<slash:department>tussle-continues</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>9</slash:comments>
+<slash:hit_parade>9,9,6,4,1,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/24/03/11/1934259/automakers-are-sharing-consumers-driving-behavior-with-insurance-companies?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Automakers Are Sharing Consumers' Driving Behavior With Insurance Companies</title>
+<link>https://tech.slashdot.org/story/24/03/11/1934259/automakers-are-sharing-consumers-driving-behavior-with-insurance-companies?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Automakers, including G.M., Honda, Kia, and Hyundai, have been collecting detailed driving data from millions of Americans through internet-enabled connected-car apps. The data, which includes information on speed, hard braking, and rapid accelerations, is shared with data brokers like LexisNexis. These brokers then provide the information to insurance companies, which use it to personalize coverage and set rates, The New York Times reported Monday. While automakers and data brokers claim to have drivers' consent, the partnerships are often obscured in fine print and unclear privacy policies. The practice raises concerns about privacy and transparency, as some drivers may be unaware that their driving habits are being tracked and shared with third parties.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Automakers+Are+Sharing+Consumers'+Driving+Behavior+With+Insurance+Companies%3A+https%3A%2F%2Ftech.slashdot.org%2Fstory%2F24%2F03%2F11%2F1934259%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F24%2F03%2F11%2F1934259%2Fautomakers-are-sharing-consumers-driving-behavior-with-insurance-companies%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/24/03/11/1934259/automakers-are-sharing-consumers-driving-behavior-with-insurance-companies?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254463&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2024-03-11T20:40:00+00:00</dc:date>
+<dc:subject>transportation</dc:subject>
+<slash:department>no-mercy</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>94</slash:comments>
+<slash:hit_parade>94,93,89,80,23,9,3</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/24/03/11/1838227/boeings-woes-continue-as-50-injured-on-australia-new-zealand-flight?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Boeing's Woes Continue as 50 Injured on Australia-New Zealand Flight</title>
+<link>https://tech.slashdot.org/story/24/03/11/1838227/boeings-woes-continue-as-50-injured-on-australia-new-zealand-flight?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Dozens of people have been injured by what officials described as a "strong movement" on a Chilean flight from Australia to New Zealand. From a report: In a statement on Monday, Chilean LATAM Airlines blamed the injuries on "a technical event during the flight which caused a strong movement." It is just the latest in a series of safety-related incidents to feature a Boeing plane. Passengers were met by paramedics when the LATAM Boeing 787-9 Dreamliner touched down in Auckland. It was not immediately clear what caused the incident. 
+
+About 50 people were treated at the scene, mostly for mild injuries. Twelve were taken to hospital, an ambulance spokesperson said, with one believed to be in serious condition. It is been a turbulent week for Boeing, with the US plane maker suffering a series of safety-related issues. Further reading: Justice Department Opens Criminal Investigation Into Boeing's Window Blowout Incident.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Boeing's+Woes+Continue+as+50+Injured+on+Australia-New+Zealand+Flight%3A+https%3A%2F%2Ftech.slashdot.org%2Fstory%2F24%2F03%2F11%2F1838227%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F24%2F03%2F11%2F1838227%2Fboeings-woes-continue-as-50-injured-on-australia-new-zealand-flight%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/24/03/11/1838227/boeings-woes-continue-as-50-injured-on-australia-new-zealand-flight?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254395&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2024-03-11T20:01:00+00:00</dc:date>
+<dc:subject>transportation</dc:subject>
+<slash:department>cannot-catch-a-break</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>83</slash:comments>
+<slash:hit_parade>83,81,66,63,17,8,7</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/24/03/11/1910201/u-of-texas-at-austin-will-return-to-standardized-test-requirement?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>U. of Texas at Austin Will Return To Standardized Test Requirement</title>
+<link>https://news.slashdot.org/story/24/03/11/1910201/u-of-texas-at-austin-will-return-to-standardized-test-requirement?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>The University of Texas at Austin said Monday that it would again require standardized tests for admissions (non-paywalled source), becoming the latest selective university to reinstate requirements for SAT or ACT scores that were abandoned during the pandemic. From a report: A few years ago, about 2,000 colleges across the country began to move away from requiring test scores, at least temporarily, amid concerns they helped fuel inequality. But a growing number of those schools have reversed those policies, including Brown, Yale, Dartmouth, M.I.T., Georgetown and Purdue, with several announcing the changes in recent months. 
+
+U.T. Austin, which admits a cross-section of high-achieving Texas students under a plan designed to increase opportunity in the state, cited a slightly different reason than the other schools in returning to test requirements. Without requiring test scores, officials said, they were hampered in placing the admitted students in programs they would be most suited for and in determining which ones needed extra help. After making test scores optional the past few years, the university will now require applicants to submit either SAT or ACT scores beginning Aug. 1, with applications for fall 2025 admissions. 
+
+In an interview, Jay Hartzell, the U.T. president, said that the decision followed an analysis of students who did not submit scores. "We looked at our students and found that, in many ways, they weren't faring as well," Dr. Hartzell said. Those against testing requirements have long said that standardized tests are unfair because many students from affluent families use tutors and coaches to bolster their scores. But recent data has raised questions about the contention. In reinstating test requirements, some universities have said that making scores optional had the unintended effect of harming prospective students from low-income families.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=U.+of+Texas+at+Austin+Will+Return+To+Standardized+Test+Requirement%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F03%2F11%2F1910201%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F03%2F11%2F1910201%2Fu-of-texas-at-austin-will-return-to-standardized-test-requirement%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/24/03/11/1910201/u-of-texas-at-austin-will-return-to-standardized-test-requirement?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254419&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2024-03-11T19:20:00+00:00</dc:date>
+<dc:subject>education</dc:subject>
+<slash:department>how-about-that</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>75</slash:comments>
+<slash:hit_parade>75,70,59,55,18,8,6</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/24/03/11/189248/us-will-do-whatever-it-takes-to-curb-china-tech-raimondo-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>US Will 'Do Whatever It Takes' To Curb China Tech, Raimondo Says</title>
+<link>https://news.slashdot.org/story/24/03/11/189248/us-will-do-whatever-it-takes-to-curb-china-tech-raimondo-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>The US could further tighten controls on China's access to sophisticated semiconductor technologies, Commerce Secretary Gina Raimondo said, signaling Washington may intensify its campaign to prevent Beijing catching up in military capabilities. From a report: "We cannot allow China to have access for their military advancement to our most sophisticated technology," she told reporters in Manila on Monday. "So yes, we will do whatever it takes to protect our people including expanding our controls." 
+
+Raimondo, who is leading a trade delegation to the Philippines and Thailand, was asked if the US is planning to add new restrictions on the sale of semiconductors to China. The Biden administration is mulling fresh sanctions on several Chinese tech companies, including memory chipmaker ChangXin Memory Technologies Inc., while pushing allies to do more to curb the export of advanced tech to China, Bloomberg has reported in recent days. Washington has taken aim at China's chip industry for years, imposing sweeping controls on the export of advanced semiconductor-making machines and sophisticated chips like those used to develop artificial intelligence. Japan and the Netherlands, the two key countries where chip-making equipment is developed, joined the US effort last year.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=US+Will+'Do+Whatever+It+Takes'+To+Curb+China+Tech%2C+Raimondo+Says%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F03%2F11%2F189248%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F24%2F03%2F11%2F189248%2Fus-will-do-whatever-it-takes-to-curb-china-tech-raimondo-says%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/24/03/11/189248/us-will-do-whatever-it-takes-to-curb-china-tech-raimondo-says?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=23254353&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2024-03-11T18:41:00+00:00</dc:date>
+<dc:subject>usa</dc:subject>
+<slash:department>tussle-continues</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>76</slash:comments>
+<slash:hit_parade>76,75,64,58,14,3,2</slash:hit_parade>
+</item>
+<textinput rdf:about="https://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>https://slashdot.org/search.pl</link>
+</textinput>
+</rdf:RDF>
