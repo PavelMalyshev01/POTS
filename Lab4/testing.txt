@@ -1,0 +1,1122 @@
+Erlang/OTP 26 [erts-14.2.2] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1] [jit:ns]
+
+Eshell V14.2.2 (press Ctrl+G to abort, type help(). for help)
+1> cd('c:/Users/МалышевПавелВикторов/Desktop/MGTU/POTS/Labs/Lab4/').
+c:/Users/МалышевПавелВикторов/Desktop/MGTU/POTS/Labs/Lab4
+ok
+2> c(rss_parse).
+{ok,rss_parse}
+3> c(rss_queue).
+{ok,rss_queue}
+4> c(test).
+{ok,test}
+5> test:testing('slashdot.xml').
+=ERROR REPORT==== 19-Mar-2024::14:36:31.030000 ===
+rss_queue <0.85.0>:  Version not 2.0, PID: <0.107.0>
+
+true
+6> test:testing('digg-science-rss1.xml').
+Size of RSS2Feed: 40
+=INFO REPORT==== 19-Mar-2024::14:37:04.821000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.821000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.826000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.826000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.827000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.828000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.829000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.829000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.830000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.832000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.833000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.834000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.835000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.837000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.838000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.841000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.843000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.845000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.848000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.851000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.855000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.859000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.863000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.867000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.872000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.878000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.883000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.889000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.896000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.904000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.912000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.919000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.928000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.936000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.946000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.957000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.967000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.978000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:04.990000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:05.002000 ===
+rss_queue <0.109.0>:  New item added to Queue. PID: <0.109.0>
+
+=INFO REPORT==== 19-Mar-2024::14:37:05.016000 ===
+rss_queue <0.109.0>:  Sent rss items to <0.85.0>
+
+Queue size = 40 items from the feed to <0.109.0>
+
+Queue:
+Item #1:
+  Guid: "http://digg.com/space/Dark_flow_Proof_of_another_universe",
+  Title: "Dark flow: Proof of another universe? ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/_7wZtEyDn3w/Dark_flow_Proof_of_another_universe",
+  PubDate: "Sat, 24 Jan 2009 04:30:03 +0000".
+Item #2:
+  Guid: "http://digg.com/general_sciences/Wiggling_Beetle_Larvae_Inspire_Innovative_Boat_Power",
+  Title: "Wiggling Beetle Larvae Inspire Innovative Boat Power",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Ek3aKaX5hGY/Wiggling_Beetle_Larvae_Inspire_Innovative_Boat_Power",
+  PubDate: "Sat, 24 Jan 2009 07:10:02 +0000".
+Item #3:
+  Guid: "http://digg.com/general_sciences/Warrior_Gene_Predicts_Aggressive_Behavior_After_Provocation",
+  Title: "Warrior Gene Predicts Aggressive Behavior After Provocation",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/QDG0FQnmHmY/Warrior_Gene_Predicts_Aggressive_Behavior_After_Provocation",
+  PubDate: "Sat, 24 Jan 2009 07:20:02 +0000".
+Item #4:
+  Guid: "http://digg.com/general_sciences/Teleportation_Milestone_Achieved",
+  Title: " Teleportation Milestone Achieved",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/I-pxDqJEjY8/Teleportation_Milestone_Achieved",
+  PubDate: "Sat, 24 Jan 2009 10:00:02 +0000".
+Item #5:
+  Guid: "http://digg.com/space/Ring_of_Fire_Solar_Eclipse_for_Indian_Ocean_People_Lucky",
+  Title: "Ring of Fire: Solar Eclipse for Indian Ocean People! Lucky!",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Lrn21K4rq84/Ring_of_Fire_Solar_Eclipse_for_Indian_Ocean_People_Lucky",
+  PubDate: "Sat, 24 Jan 2009 12:20:01 +0000".
+Item #6:
+  Guid: "http://digg.com/space/Want_to_Play_with_My_Shiny_New_Toy",
+  Title: "Want to Play with My Shiny New Toy?",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/i9j_JpRZP6A/Want_to_Play_with_My_Shiny_New_Toy",
+  PubDate: "Sat, 24 Jan 2009 13:10:01 +0000".
+Item #7:
+  Guid: "http://digg.com/environment/Small_earthquake_rattles_western_Los_Angeles_01_23_2009_7_42",
+  Title: "Small earthquake rattles western Los Angeles 01/23/2009 7:42",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/axmZZiCvlUk/Small_earthquake_rattles_western_Los_Angeles_01_23_2009_7_42",
+  PubDate: "Sat, 24 Jan 2009 15:10:12 +0000".
+Item #8:
+  Guid: "http://digg.com/general_sciences/Do_Taxi_Drivers_Grow_Bigger_Brains_By_Remembering_Routes",
+  Title: "Do Taxi Drivers Grow Bigger Brains By Remembering Routes?",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/mnAnRpL15zU/Do_Taxi_Drivers_Grow_Bigger_Brains_By_Remembering_Routes",
+  PubDate: "Sat, 24 Jan 2009 17:50:01 +0000".
+Item #9:
+  Guid: "http://digg.com/general_sciences/Hobbits_Were_Separate_Species_Skull_Suggests",
+  Title: "\"Hobbits\" Were Separate Species, Skull Suggests",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/aB1vUyb4HaA/Hobbits_Were_Separate_Species_Skull_Suggests",
+  PubDate: "Sat, 24 Jan 2009 18:20:02 +0000".
+Item #10:
+  Guid: "http://digg.com/environment/Colleges_turn_french_fry_oil_into_fuel",
+  Title: "Colleges turn french fry oil into fuel ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/FG55_9eCkPk/Colleges_turn_french_fry_oil_into_fuel",
+  PubDate: "Sat, 24 Jan 2009 18:40:52 +0000".
+Item #11:
+  Guid: "http://digg.com/space/Europe_s_Sexy_New_Gravity_Satellite",
+  Title: "Europe's Sexy New Gravity Satellite",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/aYW7vQCFLeg/Europe_s_Sexy_New_Gravity_Satellite",
+  PubDate: "Sat, 24 Jan 2009 20:10:02 +0000".
+Item #12:
+  Guid: "http://digg.com/environment/How_Do_You_Predict_An_Avalanche_This_Guy_s_Finding_Out",
+  Title: "How Do You Predict An Avalanche? This Guy's Finding Out",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/eikELAtUh88/How_Do_You_Predict_An_Avalanche_This_Guy_s_Finding_Out",
+  PubDate: "Sat, 24 Jan 2009 21:00:02 +0000".
+Item #13:
+  Guid: "http://digg.com/general_sciences/Why_some_people_can_t_put_two_and_two_together_2",
+  Title: "Why some people can't put two and two together ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/uw0AOsWmU3Q/Why_some_people_can_t_put_two_and_two_together_2",
+  PubDate: "Sun, 25 Jan 2009 00:50:02 +0000".
+Item #14:
+  Guid: "http://digg.com/environment/Weapons_Grade_Plutonium_Made_in_1946_Found_in_Dump",
+  Title: "Weapons-Grade Plutonium Made in 1946 Found in Dump ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Z7BP9zKaDNQ/Weapons_Grade_Plutonium_Made_in_1946_Found_in_Dump",
+  PubDate: "Sun, 25 Jan 2009 01:30:02 +0000".
+Item #15:
+  Guid: "http://digg.com/environment/Public_Concern_Over_Environment_Global_Warming_Drops_Hugely",
+  Title: "Public Concern Over Environment, Global Warming Drops Hugely",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/beRDu432iD8/Public_Concern_Over_Environment_Global_Warming_Drops_Hugely",
+  PubDate: "Sun, 25 Jan 2009 02:00:03 +0000".
+Item #16:
+  Guid: "http://digg.com/environment/Waste_To_Energy_System_Could_Mean_Big_Savings",
+  Title: "Waste-To-Energy System Could Mean Big Savings",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/P5cnUgxz6r4/Waste_To_Energy_System_Could_Mean_Big_Savings",
+  PubDate: "Sun, 25 Jan 2009 05:20:01 +0000".
+Item #17:
+  Guid: "http://digg.com/general_sciences/Darwin_s_research_was_motivated_by_desire_to_end_slavery",
+  Title: "Darwin's research was motivated by desire to end slavery",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/68ISEPmO0R4/Darwin_s_research_was_motivated_by_desire_to_end_slavery",
+  PubDate: "Sun, 25 Jan 2009 07:20:01 +0000".
+Item #18:
+  Guid: "http://digg.com/environment/Arctic_trek_to_reveal_true_extent_of_melting_ice_caps_PICS",
+  Title: "Arctic trek to reveal true extent of melting ice caps (PICS)",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/y6Kdp2qIlLs/Arctic_trek_to_reveal_true_extent_of_melting_ice_caps_PICS",
+  PubDate: "Sun, 25 Jan 2009 08:00:02 +0000".
+Item #19:
+  Guid: "http://digg.com/general_sciences/University_of_Miami_engineer_designs_stretchable_electronics",
+  Title: "University of Miami engineer designs stretchable electronics",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/rJ2N4RumEe4/University_of_Miami_engineer_designs_stretchable_electronics",
+  PubDate: "Sun, 25 Jan 2009 11:00:03 +0000".
+Item #20:
+  Guid: "http://digg.com/general_sciences/How_People_Get_into_Americas_Thousand_Years_Ago_and_Why",
+  Title: "How People Get into Americas Thousand Years Ago? and Why??!",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/pJLQpRLn4sc/How_People_Get_into_Americas_Thousand_Years_Ago_and_Why",
+  PubDate: "Sun, 25 Jan 2009 12:10:02 +0000".
+Item #21:
+  Guid: "http://digg.com/space/Annular_Eclipse_The_Ring_of_Fire_APOD",
+  Title: "Annular Eclipse: The Ring of Fire  (APOD)",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/D_fl7IFptzg/Annular_Eclipse_The_Ring_of_Fire_APOD",
+  PubDate: "Sun, 25 Jan 2009 12:30:03 +0000".
+Item #22:
+  Guid: "http://digg.com/general_sciences/Women_are_happy_men_still_suffer_from_Small_Penis_syndrome",
+  Title: "Women are happy, men still suffer from \"Small Penis syndrome",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/tCn5E308uRU/Women_are_happy_men_still_suffer_from_Small_Penis_syndrome",
+  PubDate: "Sun, 25 Jan 2009 16:50:02 +0000".
+Item #23:
+  Guid: "http://digg.com/space/Study_The_Dark_Side_of_the_Moon_May_Have_Once_Faced_Earth",
+  Title: "Study: The Dark Side of the Moon May Have Once Faced Earth",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/AqbZ0RyipcM/Study_The_Dark_Side_of_the_Moon_May_Have_Once_Faced_Earth",
+  PubDate: "Sun, 25 Jan 2009 17:10:02 +0000".
+Item #24:
+  Guid: "http://digg.com/environment/Giant_Toxic_Coal_Ash_Spill_Threatens_Animals",
+  Title: "Giant Toxic Coal Ash Spill Threatens Animals",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/b5oAe4ftPt8/Giant_Toxic_Coal_Ash_Spill_Threatens_Animals",
+  PubDate: "Sun, 25 Jan 2009 17:20:02 +0000".
+Item #25:
+  Guid: "http://digg.com/environment/Volcanoes_Erupting_Through_Thick_Blanket_of_Ice",
+  Title: "Volcanoes Erupting Through Thick Blanket of Ice",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/rkwCx8pgvk0/Volcanoes_Erupting_Through_Thick_Blanket_of_Ice",
+  PubDate: "Sun, 25 Jan 2009 19:20:02 +0000".
+Item #26:
+  Guid: "http://digg.com/general_sciences/Lizards_Evolving_Rapidly_to_Survive_Deadly_Fire_Ants",
+  Title: "Lizards Evolving Rapidly to Survive Deadly Fire Ants",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/V9zh5rSdJ50/Lizards_Evolving_Rapidly_to_Survive_Deadly_Fire_Ants",
+  PubDate: "Sun, 25 Jan 2009 20:10:01 +0000".
+Item #27:
+  Guid: "http://digg.com/space/NASA_Gets_First_Look_at_Far_Side_of_Sun",
+  Title: "NASA Gets First Look at Far Side of Sun",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/MrHZPGcQabY/NASA_Gets_First_Look_at_Far_Side_of_Sun",
+  PubDate: "Sun, 25 Jan 2009 20:20:06 +0000".
+Item #28:
+  Guid: "http://digg.com/general_sciences/Tiny_Teeth",
+  Title: "Tiny Teeth",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/bOAoPsn0EmM/Tiny_Teeth",
+  PubDate: "Sun, 25 Jan 2009 21:20:02 +0000".
+Item #29:
+  Guid: "http://digg.com/general_sciences/Single_Brain_Cell_Can_Hold_a_Memory",
+  Title: "Single Brain Cell Can Hold a Memory.",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/UgsqbyAefyo/Single_Brain_Cell_Can_Hold_a_Memory",
+  PubDate: "Sun, 25 Jan 2009 23:20:03 +0000".
+Item #30:
+  Guid: "http://digg.com/general_sciences/Dinosaurs_could_survive_cold_conditions",
+  Title: "Dinosaurs could survive cold conditions",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/It5JcFAYAco/Dinosaurs_could_survive_cold_conditions",
+  PubDate: "Mon, 26 Jan 2009 00:20:02 +0000".
+Item #31:
+  Guid: "http://digg.com/space/17_Astronauts_Who_Paid_The_Ultimate_Price",
+  Title: "17 Astronauts Who Paid The Ultimate Price",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/kWgyApkKV9o/17_Astronauts_Who_Paid_The_Ultimate_Price",
+  PubDate: "Mon, 26 Jan 2009 02:20:02 +0000".
+Item #32:
+  Guid: "http://digg.com/environment/Obama_To_Allow_States_To_Regulate_Auto_Emissions",
+  Title: "Obama To Allow States To Regulate Auto Emissions",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Q0SvR30Hgic/Obama_To_Allow_States_To_Regulate_Auto_Emissions",
+  PubDate: "Mon, 26 Jan 2009 04:00:02 +0000".
+Item #33:
+  Guid: "http://digg.com/environment/Smuggler_Caught_With_Heads_of_353_African_Gray_Parrots",
+  Title: "Smuggler Caught With Heads of 353 African Gray Parrots",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Fs3Rona5dFg/Smuggler_Caught_With_Heads_of_353_African_Gray_Parrots",
+  PubDate: "Mon, 26 Jan 2009 05:30:03 +0000".
+Item #34:
+  Guid: "http://digg.com/environment/Row_over_scheme_to_fertilise_oceans",
+  Title: "Row over scheme to 'fertilise' oceans  ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/khG4CiCE2d8/Row_over_scheme_to_fertilise_oceans",
+  PubDate: "Mon, 26 Jan 2009 08:30:02 +0000".
+Item #35:
+  Guid: "http://digg.com/space/Strange_Asteroid_2009_BD_Stalks_the_Earth",
+  Title: "Strange Asteroid 2009 BD Stalks the Earth",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/8ODK-PfQEKY/Strange_Asteroid_2009_BD_Stalks_the_Earth",
+  PubDate: "Mon, 26 Jan 2009 16:30:01 +0000".
+Item #36:
+  Guid: "http://digg.com/environment/Obama_Takes_Steps_to_Reverse_Bush_Climate_Policies",
+  Title: "Obama Takes Steps to Reverse Bush Climate Policies",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/llC9cMlDjPU/Obama_Takes_Steps_to_Reverse_Bush_Climate_Policies",
+  PubDate: "Mon, 26 Jan 2009 19:50:16 +0000".
+Item #37:
+  Guid: "http://digg.com/general_sciences/1_800_Year_Old_Figurine_Found_in_Jerusalem",
+  Title: "1,800-Year-Old Figurine Found in Jerusalem",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/TtfYH-Eycmc/1_800_Year_Old_Figurine_Found_in_Jerusalem",
+  PubDate: "Mon, 26 Jan 2009 21:00:01 +0000".
+Item #38:
+  Guid: "http://digg.com/environment/Manhattan_Then_and_Now_PIC",
+  Title: "Manhattan: Then and Now [PIC]",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/ymV4yc_l0Z8/Manhattan_Then_and_Now_PIC",
+  PubDate: "Mon, 26 Jan 2009 21:50:02 +0000".
+Item #39:
+  Guid: "http://digg.com/environment/World_s_highest_drug_levels_entering_India_stream",
+  Title: "World's highest drug levels entering India stream",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Nex5m15mqXI/World_s_highest_drug_levels_entering_India_stream",
+  PubDate: "Mon, 26 Jan 2009 23:50:01 +0000".
+Item #40:
+  Guid: "http://digg.com/environment/Renewable_Energy_Accounts_For_Largest_Increase_On_U_S_Grid",
+  Title: "Renewable Energy Accounts For Largest Increase On U.S. Grid.",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Nryq6mJ65c0/Renewable_Energy_Accounts_For_Largest_Increase_On_U_S_Grid",
+  PubDate: "Tue, 27 Jan 2009 01:10:02 +0000".
+true
+7> test:testing('digg-science-rss-updated.xml').
+Size of RSS2Feed: 6
+=INFO REPORT==== 19-Mar-2024::14:38:22.362000 ===
+rss_queue <0.111.0>:  New item added to Queue. PID: <0.111.0>
+
+Queue size = 5 items from the feed to <0.111.0>
+=INFO REPORT==== 19-Mar-2024::14:38:22.362000 ===
+rss_queue <0.111.0>:  New item added to Queue. PID: <0.111.0>
+
+
+Queue:
+=INFO REPORT==== 19-Mar-2024::14:38:22.362000 ===
+rss_queue <0.111.0>:  New item added to Queue. PID: <0.111.0>
+
+Item #1:
+=INFO REPORT==== 19-Mar-2024::14:38:22.362000 ===
+rss_queue <0.111.0>:  Updated item. PID: <0.111.0>
+
+  Guid: "http://digg.com/space/Dark_flow_Proof_of_another_universe",
+  Title: "Dark flow: Proof of another universe? ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/_7wZtEyDn3w/Dark_flow_Proof_of_another_universe",
+  PubDate: "Sat, 24 Jan 2009 04:30:03 +0000".
+=INFO REPORT==== 19-Mar-2024::14:38:22.363000 ===
+rss_queue <0.111.0>:  New item added to Queue. PID: <0.111.0>
+
+Item #2:
+=INFO REPORT==== 19-Mar-2024::14:38:22.363000 ===
+rss_queue <0.111.0>:  New item added to Queue. PID: <0.111.0>
+
+  Guid: "http://digg.com/environment/Row_over_scheme_to_fertilise_oceans",
+  Title: "Row over scheme to 'fertilise' oceans  ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/khG4CiCE2d8/Row_over_scheme_to_fertilise_oceans",
+  PubDate: "Mon, 26 Jan 2009 08:30:02 +0000".
+=INFO REPORT==== 19-Mar-2024::14:38:22.363000 ===
+rss_queue <0.111.0>:  Sent rss items to <0.85.0>
+
+Item #3:
+  Guid: "http://digg.com/environment/World_s_highest_drug_levels_entering_India_stream",
+  Title: "World's highest drug levels entering India stream",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Nex5m15mqXI/World_s_highest_drug_levels_entering_India_stream",
+  PubDate: "Mon, 26 Jan 2009 23:50:01 +0000".
+Item #4:
+  Guid: "http://digg.com/environment/Renewable_Energy_Accounts_For_Largest_Increase_On_U_S_Grid",
+  Title: "Renewable Energy Accounts For Largest Increase On U.S. Grid.",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Nryq6mJ65c0/Renewable_Energy_Accounts_For_Largest_Increase_On_U_S_Grid",
+  PubDate: "Tue, 27 Jan 2009 01:10:02 +0000".
+Item #5:
+  Guid: "http://digg.com/general_sciences/1_800_Year_Old_Figurine_Found_in_Jerusalem",
+  Title: "1,800-Year-Old Figurine Found in Jerusalem",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/TtfYH-Eycmc/1_800_Year_Old_Figurine_Found_in_Jerusalem",
+  PubDate: "Mon, 28 Jan 2009 21:00:01 +0000".
+true
+8> test:testing('digg-science-rss-same.xml').
+Size of RSS2Feed: 6
+=INFO REPORT==== 19-Mar-2024::14:39:21.112000 ===
+rss_queue <0.113.0>:  New item added to Queue. PID: <0.113.0>
+
+=INFO REPORT==== 19-Mar-2024::14:39:21.112000 ===
+rss_queue <0.113.0>:  New item added to Queue. PID: <0.113.0>
+
+Queue size = 5 items from the feed to <0.113.0>
+=INFO REPORT==== 19-Mar-2024::14:39:21.112000 ===
+rss_queue <0.113.0>:  Same items. Item ignored. PID: <0.113.0>
+
+
+Queue:
+=INFO REPORT==== 19-Mar-2024::14:39:21.113000 ===
+rss_queue <0.113.0>:  New item added to Queue. PID: <0.113.0>
+
+Item #1:
+=INFO REPORT==== 19-Mar-2024::14:39:21.113000 ===
+rss_queue <0.113.0>:  New item added to Queue. PID: <0.113.0>
+
+  Guid: "http://digg.com/space/Dark_flow_Proof_of_another_universe",
+  Title: "Dark flow: Proof of another universe? ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/_7wZtEyDn3w/Dark_flow_Proof_of_another_universe",
+  PubDate: "Sat, 24 Jan 2009 04:30:03 +0000".
+=INFO REPORT==== 19-Mar-2024::14:39:21.113000 ===
+rss_queue <0.113.0>:  New item added to Queue. PID: <0.113.0>
+
+Item #2:
+=INFO REPORT==== 19-Mar-2024::14:39:21.113000 ===
+rss_queue <0.113.0>:  Sent rss items to <0.85.0>
+
+  Guid: "http://digg.com/environment/Row_over_scheme_to_fertilise_oceans",
+  Title: "Row over scheme to 'fertilise' oceans  ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/khG4CiCE2d8/Row_over_scheme_to_fertilise_oceans",
+  PubDate: "Mon, 26 Jan 2009 08:30:02 +0000".
+Item #3:
+  Guid: "http://digg.com/general_sciences/1_800_Year_Old_Figurine_Found_in_Jerusalem",
+  Title: "1,800-Year-Old Figurine Found in Jerusalem",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/TtfYH-Eycmc/1_800_Year_Old_Figurine_Found_in_Jerusalem",
+  PubDate: "Mon, 26 Jan 2009 21:00:01 +0000".
+Item #4:
+  Guid: "http://digg.com/environment/World_s_highest_drug_levels_entering_India_stream",
+  Title: "World's highest drug levels entering India stream",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Nex5m15mqXI/World_s_highest_drug_levels_entering_India_stream",
+  PubDate: "Mon, 26 Jan 2009 23:50:01 +0000".
+Item #5:
+  Guid: "http://digg.com/environment/Renewable_Energy_Accounts_For_Largest_Increase_On_U_S_Grid",
+  Title: "Renewable Energy Accounts For Largest Increase On U.S. Grid.",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Nryq6mJ65c0/Renewable_Energy_Accounts_For_Largest_Increase_On_U_S_Grid",
+  PubDate: "Tue, 27 Jan 2009 01:10:02 +0000".
+true
+9> test:testing('digg-science-rss1.xml', 'digg-science-rss2.xml').
+Size of RSS2Feed: 40
+=INFO REPORT==== 19-Mar-2024::14:40:12.077000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.077000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.077000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.078000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.078000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.081000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.081000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.082000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.082000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.084000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.086000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.087000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.090000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.093000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.095000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.098000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.101000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.104000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.107000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.110000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.114000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.118000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.123000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.128000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.133000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.139000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.144000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.151000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.157000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.164000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.172000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.180000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.189000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.198000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.207000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.218000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.229000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.240000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.253000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.266000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.279000 ===
+rss_queue <0.115.0>:  Sent rss items to <0.85.0>
+
+Queue size = 40 items from the feed to <0.115.0>
+
+Queue:
+Item #1:
+  Guid: "http://digg.com/space/Dark_flow_Proof_of_another_universe",
+  Title: "Dark flow: Proof of another universe? ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/_7wZtEyDn3w/Dark_flow_Proof_of_another_universe",
+  PubDate: "Sat, 24 Jan 2009 04:30:03 +0000".
+Item #2:
+  Guid: "http://digg.com/general_sciences/Wiggling_Beetle_Larvae_Inspire_Innovative_Boat_Power",
+  Title: "Wiggling Beetle Larvae Inspire Innovative Boat Power",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Ek3aKaX5hGY/Wiggling_Beetle_Larvae_Inspire_Innovative_Boat_Power",
+  PubDate: "Sat, 24 Jan 2009 07:10:02 +0000".
+Item #3:
+  Guid: "http://digg.com/general_sciences/Warrior_Gene_Predicts_Aggressive_Behavior_After_Provocation",
+  Title: "Warrior Gene Predicts Aggressive Behavior After Provocation",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/QDG0FQnmHmY/Warrior_Gene_Predicts_Aggressive_Behavior_After_Provocation",
+  PubDate: "Sat, 24 Jan 2009 07:20:02 +0000".
+Item #4:
+  Guid: "http://digg.com/general_sciences/Teleportation_Milestone_Achieved",
+  Title: " Teleportation Milestone Achieved",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/I-pxDqJEjY8/Teleportation_Milestone_Achieved",
+  PubDate: "Sat, 24 Jan 2009 10:00:02 +0000".
+Item #5:
+  Guid: "http://digg.com/space/Ring_of_Fire_Solar_Eclipse_for_Indian_Ocean_People_Lucky",
+  Title: "Ring of Fire: Solar Eclipse for Indian Ocean People! Lucky!",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Lrn21K4rq84/Ring_of_Fire_Solar_Eclipse_for_Indian_Ocean_People_Lucky",
+  PubDate: "Sat, 24 Jan 2009 12:20:01 +0000".
+Item #6:
+  Guid: "http://digg.com/space/Want_to_Play_with_My_Shiny_New_Toy",
+  Title: "Want to Play with My Shiny New Toy?",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/i9j_JpRZP6A/Want_to_Play_with_My_Shiny_New_Toy",
+  PubDate: "Sat, 24 Jan 2009 13:10:01 +0000".
+Item #7:
+  Guid: "http://digg.com/environment/Small_earthquake_rattles_western_Los_Angeles_01_23_2009_7_42",
+  Title: "Small earthquake rattles western Los Angeles 01/23/2009 7:42",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/axmZZiCvlUk/Small_earthquake_rattles_western_Los_Angeles_01_23_2009_7_42",
+  PubDate: "Sat, 24 Jan 2009 15:10:12 +0000".
+Item #8:
+  Guid: "http://digg.com/general_sciences/Do_Taxi_Drivers_Grow_Bigger_Brains_By_Remembering_Routes",
+  Title: "Do Taxi Drivers Grow Bigger Brains By Remembering Routes?",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/mnAnRpL15zU/Do_Taxi_Drivers_Grow_Bigger_Brains_By_Remembering_Routes",
+  PubDate: "Sat, 24 Jan 2009 17:50:01 +0000".
+Item #9:
+  Guid: "http://digg.com/general_sciences/Hobbits_Were_Separate_Species_Skull_Suggests",
+  Title: "\"Hobbits\" Were Separate Species, Skull Suggests",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/aB1vUyb4HaA/Hobbits_Were_Separate_Species_Skull_Suggests",
+  PubDate: "Sat, 24 Jan 2009 18:20:02 +0000".
+Item #10:
+  Guid: "http://digg.com/environment/Colleges_turn_french_fry_oil_into_fuel",
+  Title: "Colleges turn french fry oil into fuel ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/FG55_9eCkPk/Colleges_turn_french_fry_oil_into_fuel",
+  PubDate: "Sat, 24 Jan 2009 18:40:52 +0000".
+Item #11:
+  Guid: "http://digg.com/space/Europe_s_Sexy_New_Gravity_Satellite",
+  Title: "Europe's Sexy New Gravity Satellite",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/aYW7vQCFLeg/Europe_s_Sexy_New_Gravity_Satellite",
+  PubDate: "Sat, 24 Jan 2009 20:10:02 +0000".
+Item #12:
+  Guid: "http://digg.com/environment/How_Do_You_Predict_An_Avalanche_This_Guy_s_Finding_Out",
+  Title: "How Do You Predict An Avalanche? This Guy's Finding Out",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/eikELAtUh88/How_Do_You_Predict_An_Avalanche_This_Guy_s_Finding_Out",
+  PubDate: "Sat, 24 Jan 2009 21:00:02 +0000".
+Item #13:
+  Guid: "http://digg.com/general_sciences/Why_some_people_can_t_put_two_and_two_together_2",
+  Title: "Why some people can't put two and two together ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/uw0AOsWmU3Q/Why_some_people_can_t_put_two_and_two_together_2",
+  PubDate: "Sun, 25 Jan 2009 00:50:02 +0000".
+Item #14:
+  Guid: "http://digg.com/environment/Weapons_Grade_Plutonium_Made_in_1946_Found_in_Dump",
+  Title: "Weapons-Grade Plutonium Made in 1946 Found in Dump ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Z7BP9zKaDNQ/Weapons_Grade_Plutonium_Made_in_1946_Found_in_Dump",
+  PubDate: "Sun, 25 Jan 2009 01:30:02 +0000".
+Item #15:
+  Guid: "http://digg.com/environment/Public_Concern_Over_Environment_Global_Warming_Drops_Hugely",
+  Title: "Public Concern Over Environment, Global Warming Drops Hugely",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/beRDu432iD8/Public_Concern_Over_Environment_Global_Warming_Drops_Hugely",
+  PubDate: "Sun, 25 Jan 2009 02:00:03 +0000".
+Item #16:
+  Guid: "http://digg.com/environment/Waste_To_Energy_System_Could_Mean_Big_Savings",
+  Title: "Waste-To-Energy System Could Mean Big Savings",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/P5cnUgxz6r4/Waste_To_Energy_System_Could_Mean_Big_Savings",
+  PubDate: "Sun, 25 Jan 2009 05:20:01 +0000".
+Item #17:
+  Guid: "http://digg.com/general_sciences/Darwin_s_research_was_motivated_by_desire_to_end_slavery",
+  Title: "Darwin's research was motivated by desire to end slavery",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/68ISEPmO0R4/Darwin_s_research_was_motivated_by_desire_to_end_slavery",
+  PubDate: "Sun, 25 Jan 2009 07:20:01 +0000".
+Item #18:
+  Guid: "http://digg.com/environment/Arctic_trek_to_reveal_true_extent_of_melting_ice_caps_PICS",
+  Title: "Arctic trek to reveal true extent of melting ice caps (PICS)",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/y6Kdp2qIlLs/Arctic_trek_to_reveal_true_extent_of_melting_ice_caps_PICS",
+  PubDate: "Sun, 25 Jan 2009 08:00:02 +0000".
+Item #19:
+  Guid: "http://digg.com/general_sciences/University_of_Miami_engineer_designs_stretchable_electronics",
+  Title: "University of Miami engineer designs stretchable electronics",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/rJ2N4RumEe4/University_of_Miami_engineer_designs_stretchable_electronics",
+  PubDate: "Sun, 25 Jan 2009 11:00:03 +0000".
+Item #20:
+  Guid: "http://digg.com/general_sciences/How_People_Get_into_Americas_Thousand_Years_Ago_and_Why",
+  Title: "How People Get into Americas Thousand Years Ago? and Why??!",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/pJLQpRLn4sc/How_People_Get_into_Americas_Thousand_Years_Ago_and_Why",
+  PubDate: "Sun, 25 Jan 2009 12:10:02 +0000".
+Item #21:
+  Guid: "http://digg.com/space/Annular_Eclipse_The_Ring_of_Fire_APOD",
+  Title: "Annular Eclipse: The Ring of Fire  (APOD)",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/D_fl7IFptzg/Annular_Eclipse_The_Ring_of_Fire_APOD",
+  PubDate: "Sun, 25 Jan 2009 12:30:03 +0000".
+Item #22:
+  Guid: "http://digg.com/general_sciences/Women_are_happy_men_still_suffer_from_Small_Penis_syndrome",
+  Title: "Women are happy, men still suffer from \"Small Penis syndrome",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/tCn5E308uRU/Women_are_happy_men_still_suffer_from_Small_Penis_syndrome",
+  PubDate: "Sun, 25 Jan 2009 16:50:02 +0000".
+Item #23:
+  Guid: "http://digg.com/space/Study_The_Dark_Side_of_the_Moon_May_Have_Once_Faced_Earth",
+  Title: "Study: The Dark Side of the Moon May Have Once Faced Earth",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/AqbZ0RyipcM/Study_The_Dark_Side_of_the_Moon_May_Have_Once_Faced_Earth",
+  PubDate: "Sun, 25 Jan 2009 17:10:02 +0000".
+Item #24:
+  Guid: "http://digg.com/environment/Giant_Toxic_Coal_Ash_Spill_Threatens_Animals",
+  Title: "Giant Toxic Coal Ash Spill Threatens Animals",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/b5oAe4ftPt8/Giant_Toxic_Coal_Ash_Spill_Threatens_Animals",
+  PubDate: "Sun, 25 Jan 2009 17:20:02 +0000".
+Item #25:
+  Guid: "http://digg.com/environment/Volcanoes_Erupting_Through_Thick_Blanket_of_Ice",
+  Title: "Volcanoes Erupting Through Thick Blanket of Ice",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/rkwCx8pgvk0/Volcanoes_Erupting_Through_Thick_Blanket_of_Ice",
+  PubDate: "Sun, 25 Jan 2009 19:20:02 +0000".
+Item #26:
+  Guid: "http://digg.com/general_sciences/Lizards_Evolving_Rapidly_to_Survive_Deadly_Fire_Ants",
+  Title: "Lizards Evolving Rapidly to Survive Deadly Fire Ants",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/V9zh5rSdJ50/Lizards_Evolving_Rapidly_to_Survive_Deadly_Fire_Ants",
+  PubDate: "Sun, 25 Jan 2009 20:10:01 +0000".
+Item #27:
+  Guid: "http://digg.com/space/NASA_Gets_First_Look_at_Far_Side_of_Sun",
+  Title: "NASA Gets First Look at Far Side of Sun",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/MrHZPGcQabY/NASA_Gets_First_Look_at_Far_Side_of_Sun",
+  PubDate: "Sun, 25 Jan 2009 20:20:06 +0000".
+Item #28:
+  Guid: "http://digg.com/general_sciences/Tiny_Teeth",
+  Title: "Tiny Teeth",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/bOAoPsn0EmM/Tiny_Teeth",
+  PubDate: "Sun, 25 Jan 2009 21:20:02 +0000".
+Item #29:
+  Guid: "http://digg.com/general_sciences/Single_Brain_Cell_Can_Hold_a_Memory",
+  Title: "Single Brain Cell Can Hold a Memory.",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/UgsqbyAefyo/Single_Brain_Cell_Can_Hold_a_Memory",
+  PubDate: "Sun, 25 Jan 2009 23:20:03 +0000".
+Item #30:
+  Guid: "http://digg.com/general_sciences/Dinosaurs_could_survive_cold_conditions",
+  Title: "Dinosaurs could survive cold conditions",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/It5JcFAYAco/Dinosaurs_could_survive_cold_conditions",
+  PubDate: "Mon, 26 Jan 2009 00:20:02 +0000".
+Item #31:
+  Guid: "http://digg.com/space/17_Astronauts_Who_Paid_The_Ultimate_Price",
+  Title: "17 Astronauts Who Paid The Ultimate Price",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/kWgyApkKV9o/17_Astronauts_Who_Paid_The_Ultimate_Price",
+  PubDate: "Mon, 26 Jan 2009 02:20:02 +0000".
+Item #32:
+  Guid: "http://digg.com/environment/Obama_To_Allow_States_To_Regulate_Auto_Emissions",
+  Title: "Obama To Allow States To Regulate Auto Emissions",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Q0SvR30Hgic/Obama_To_Allow_States_To_Regulate_Auto_Emissions",
+  PubDate: "Mon, 26 Jan 2009 04:00:02 +0000".
+Item #33:
+  Guid: "http://digg.com/environment/Smuggler_Caught_With_Heads_of_353_African_Gray_Parrots",
+  Title: "Smuggler Caught With Heads of 353 African Gray Parrots",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Fs3Rona5dFg/Smuggler_Caught_With_Heads_of_353_African_Gray_Parrots",
+  PubDate: "Mon, 26 Jan 2009 05:30:03 +0000".
+Item #34:
+  Guid: "http://digg.com/environment/Row_over_scheme_to_fertilise_oceans",
+  Title: "Row over scheme to 'fertilise' oceans  ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/khG4CiCE2d8/Row_over_scheme_to_fertilise_oceans",
+  PubDate: "Mon, 26 Jan 2009 08:30:02 +0000".
+Item #35:
+  Guid: "http://digg.com/space/Strange_Asteroid_2009_BD_Stalks_the_Earth",
+  Title: "Strange Asteroid 2009 BD Stalks the Earth",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/8ODK-PfQEKY/Strange_Asteroid_2009_BD_Stalks_the_Earth",
+  PubDate: "Mon, 26 Jan 2009 16:30:01 +0000".
+Item #36:
+  Guid: "http://digg.com/environment/Obama_Takes_Steps_to_Reverse_Bush_Climate_Policies",
+  Title: "Obama Takes Steps to Reverse Bush Climate Policies",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/llC9cMlDjPU/Obama_Takes_Steps_to_Reverse_Bush_Climate_Policies",
+  PubDate: "Mon, 26 Jan 2009 19:50:16 +0000".
+Item #37:
+  Guid: "http://digg.com/general_sciences/1_800_Year_Old_Figurine_Found_in_Jerusalem",
+  Title: "1,800-Year-Old Figurine Found in Jerusalem",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/TtfYH-Eycmc/1_800_Year_Old_Figurine_Found_in_Jerusalem",
+  PubDate: "Mon, 26 Jan 2009 21:00:01 +0000".
+Item #38:
+  Guid: "http://digg.com/environment/Manhattan_Then_and_Now_PIC",
+  Title: "Manhattan: Then and Now [PIC]",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/ymV4yc_l0Z8/Manhattan_Then_and_Now_PIC",
+  PubDate: "Mon, 26 Jan 2009 21:50:02 +0000".
+Item #39:
+  Guid: "http://digg.com/environment/World_s_highest_drug_levels_entering_India_stream",
+  Title: "World's highest drug levels entering India stream",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Nex5m15mqXI/World_s_highest_drug_levels_entering_India_stream",
+  PubDate: "Mon, 26 Jan 2009 23:50:01 +0000".
+Item #40:
+  Guid: "http://digg.com/environment/Renewable_Energy_Accounts_For_Largest_Increase_On_U_S_Grid",
+  Title: "Renewable Energy Accounts For Largest Increase On U.S. Grid.",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Nryq6mJ65c0/Renewable_Energy_Accounts_For_Largest_Increase_On_U_S_Grid",
+  PubDate: "Tue, 27 Jan 2009 01:10:02 +0000".
+Size of RSS2Feed: 40
+=INFO REPORT==== 19-Mar-2024::14:40:12.362000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.377000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.392000 ===
+rss_queue <0.115.0>:  New item added to Queue. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.408000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.424000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.440000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.455000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.471000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.487000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.502000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.518000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.533000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.548000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.564000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.580000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.595000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.610000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.625000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.640000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.655000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.671000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.686000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.700000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.715000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.730000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.745000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.759000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.774000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.789000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.804000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.819000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.834000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.848000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.863000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.879000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.894000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.908000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.923000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.937000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.952000 ===
+rss_queue <0.115.0>:  Same items. Item ignored. PID: <0.115.0>
+
+=INFO REPORT==== 19-Mar-2024::14:40:12.968000 ===
+rss_queue <0.115.0>:  Sent rss items to <0.85.0>
+
+Queue size = 43 items from the feed to <0.115.0>
+
+Queue:
+Item #1:
+  Guid: "http://digg.com/space/Dark_flow_Proof_of_another_universe",
+  Title: "Dark flow: Proof of another universe? ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/_7wZtEyDn3w/Dark_flow_Proof_of_another_universe",
+  PubDate: "Sat, 24 Jan 2009 04:30:03 +0000".
+Item #2:
+  Guid: "http://digg.com/general_sciences/Wiggling_Beetle_Larvae_Inspire_Innovative_Boat_Power",
+  Title: "Wiggling Beetle Larvae Inspire Innovative Boat Power",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Ek3aKaX5hGY/Wiggling_Beetle_Larvae_Inspire_Innovative_Boat_Power",
+  PubDate: "Sat, 24 Jan 2009 07:10:02 +0000".
+Item #3:
+  Guid: "http://digg.com/general_sciences/Warrior_Gene_Predicts_Aggressive_Behavior_After_Provocation",
+  Title: "Warrior Gene Predicts Aggressive Behavior After Provocation",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/QDG0FQnmHmY/Warrior_Gene_Predicts_Aggressive_Behavior_After_Provocation",
+  PubDate: "Sat, 24 Jan 2009 07:20:02 +0000".
+Item #4:
+  Guid: "http://digg.com/general_sciences/Teleportation_Milestone_Achieved",
+  Title: " Teleportation Milestone Achieved",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/I-pxDqJEjY8/Teleportation_Milestone_Achieved",
+  PubDate: "Sat, 24 Jan 2009 10:00:02 +0000".
+Item #5:
+  Guid: "http://digg.com/space/Ring_of_Fire_Solar_Eclipse_for_Indian_Ocean_People_Lucky",
+  Title: "Ring of Fire: Solar Eclipse for Indian Ocean People! Lucky!",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Lrn21K4rq84/Ring_of_Fire_Solar_Eclipse_for_Indian_Ocean_People_Lucky",
+  PubDate: "Sat, 24 Jan 2009 12:20:01 +0000".
+Item #6:
+  Guid: "http://digg.com/space/Want_to_Play_with_My_Shiny_New_Toy",
+  Title: "Want to Play with My Shiny New Toy?",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/i9j_JpRZP6A/Want_to_Play_with_My_Shiny_New_Toy",
+  PubDate: "Sat, 24 Jan 2009 13:10:01 +0000".
+Item #7:
+  Guid: "http://digg.com/environment/Small_earthquake_rattles_western_Los_Angeles_01_23_2009_7_42",
+  Title: "Small earthquake rattles western Los Angeles 01/23/2009 7:42",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/axmZZiCvlUk/Small_earthquake_rattles_western_Los_Angeles_01_23_2009_7_42",
+  PubDate: "Sat, 24 Jan 2009 15:10:12 +0000".
+Item #8:
+  Guid: "http://digg.com/general_sciences/Do_Taxi_Drivers_Grow_Bigger_Brains_By_Remembering_Routes",
+  Title: "Do Taxi Drivers Grow Bigger Brains By Remembering Routes?",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/mnAnRpL15zU/Do_Taxi_Drivers_Grow_Bigger_Brains_By_Remembering_Routes",
+  PubDate: "Sat, 24 Jan 2009 17:50:01 +0000".
+Item #9:
+  Guid: "http://digg.com/general_sciences/Hobbits_Were_Separate_Species_Skull_Suggests",
+  Title: "\"Hobbits\" Were Separate Species, Skull Suggests",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/aB1vUyb4HaA/Hobbits_Were_Separate_Species_Skull_Suggests",
+  PubDate: "Sat, 24 Jan 2009 18:20:02 +0000".
+Item #10:
+  Guid: "http://digg.com/environment/Colleges_turn_french_fry_oil_into_fuel",
+  Title: "Colleges turn french fry oil into fuel ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/FG55_9eCkPk/Colleges_turn_french_fry_oil_into_fuel",
+  PubDate: "Sat, 24 Jan 2009 18:40:52 +0000".
+Item #11:
+  Guid: "http://digg.com/space/Europe_s_Sexy_New_Gravity_Satellite",
+  Title: "Europe's Sexy New Gravity Satellite",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/aYW7vQCFLeg/Europe_s_Sexy_New_Gravity_Satellite",
+  PubDate: "Sat, 24 Jan 2009 20:10:02 +0000".
+Item #12:
+  Guid: "http://digg.com/environment/How_Do_You_Predict_An_Avalanche_This_Guy_s_Finding_Out",
+  Title: "How Do You Predict An Avalanche? This Guy's Finding Out",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/eikELAtUh88/How_Do_You_Predict_An_Avalanche_This_Guy_s_Finding_Out",
+  PubDate: "Sat, 24 Jan 2009 21:00:02 +0000".
+Item #13:
+  Guid: "http://digg.com/general_sciences/Why_some_people_can_t_put_two_and_two_together_2",
+  Title: "Why some people can't put two and two together ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/uw0AOsWmU3Q/Why_some_people_can_t_put_two_and_two_together_2",
+  PubDate: "Sun, 25 Jan 2009 00:50:02 +0000".
+Item #14:
+  Guid: "http://digg.com/environment/Weapons_Grade_Plutonium_Made_in_1946_Found_in_Dump",
+  Title: "Weapons-Grade Plutonium Made in 1946 Found in Dump ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Z7BP9zKaDNQ/Weapons_Grade_Plutonium_Made_in_1946_Found_in_Dump",
+  PubDate: "Sun, 25 Jan 2009 01:30:02 +0000".
+Item #15:
+  Guid: "http://digg.com/environment/Public_Concern_Over_Environment_Global_Warming_Drops_Hugely",
+  Title: "Public Concern Over Environment, Global Warming Drops Hugely",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/beRDu432iD8/Public_Concern_Over_Environment_Global_Warming_Drops_Hugely",
+  PubDate: "Sun, 25 Jan 2009 02:00:03 +0000".
+Item #16:
+  Guid: "http://digg.com/environment/Waste_To_Energy_System_Could_Mean_Big_Savings",
+  Title: "Waste-To-Energy System Could Mean Big Savings",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/P5cnUgxz6r4/Waste_To_Energy_System_Could_Mean_Big_Savings",
+  PubDate: "Sun, 25 Jan 2009 05:20:01 +0000".
+Item #17:
+  Guid: "http://digg.com/general_sciences/Darwin_s_research_was_motivated_by_desire_to_end_slavery",
+  Title: "Darwin's research was motivated by desire to end slavery",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/68ISEPmO0R4/Darwin_s_research_was_motivated_by_desire_to_end_slavery",
+  PubDate: "Sun, 25 Jan 2009 07:20:01 +0000".
+Item #18:
+  Guid: "http://digg.com/environment/Arctic_trek_to_reveal_true_extent_of_melting_ice_caps_PICS",
+  Title: "Arctic trek to reveal true extent of melting ice caps (PICS)",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/y6Kdp2qIlLs/Arctic_trek_to_reveal_true_extent_of_melting_ice_caps_PICS",
+  PubDate: "Sun, 25 Jan 2009 08:00:02 +0000".
+Item #19:
+  Guid: "http://digg.com/general_sciences/University_of_Miami_engineer_designs_stretchable_electronics",
+  Title: "University of Miami engineer designs stretchable electronics",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/rJ2N4RumEe4/University_of_Miami_engineer_designs_stretchable_electronics",
+  PubDate: "Sun, 25 Jan 2009 11:00:03 +0000".
+Item #20:
+  Guid: "http://digg.com/general_sciences/How_People_Get_into_Americas_Thousand_Years_Ago_and_Why",
+  Title: "How People Get into Americas Thousand Years Ago? and Why??!",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/pJLQpRLn4sc/How_People_Get_into_Americas_Thousand_Years_Ago_and_Why",
+  PubDate: "Sun, 25 Jan 2009 12:10:02 +0000".
+Item #21:
+  Guid: "http://digg.com/space/Annular_Eclipse_The_Ring_of_Fire_APOD",
+  Title: "Annular Eclipse: The Ring of Fire  (APOD)",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/D_fl7IFptzg/Annular_Eclipse_The_Ring_of_Fire_APOD",
+  PubDate: "Sun, 25 Jan 2009 12:30:03 +0000".
+Item #22:
+  Guid: "http://digg.com/general_sciences/Women_are_happy_men_still_suffer_from_Small_Penis_syndrome",
+  Title: "Women are happy, men still suffer from \"Small Penis syndrome",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/tCn5E308uRU/Women_are_happy_men_still_suffer_from_Small_Penis_syndrome",
+  PubDate: "Sun, 25 Jan 2009 16:50:02 +0000".
+Item #23:
+  Guid: "http://digg.com/space/Study_The_Dark_Side_of_the_Moon_May_Have_Once_Faced_Earth",
+  Title: "Study: The Dark Side of the Moon May Have Once Faced Earth",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/AqbZ0RyipcM/Study_The_Dark_Side_of_the_Moon_May_Have_Once_Faced_Earth",
+  PubDate: "Sun, 25 Jan 2009 17:10:02 +0000".
+Item #24:
+  Guid: "http://digg.com/environment/Giant_Toxic_Coal_Ash_Spill_Threatens_Animals",
+  Title: "Giant Toxic Coal Ash Spill Threatens Animals",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/b5oAe4ftPt8/Giant_Toxic_Coal_Ash_Spill_Threatens_Animals",
+  PubDate: "Sun, 25 Jan 2009 17:20:02 +0000".
+Item #25:
+  Guid: "http://digg.com/environment/Volcanoes_Erupting_Through_Thick_Blanket_of_Ice",
+  Title: "Volcanoes Erupting Through Thick Blanket of Ice",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/rkwCx8pgvk0/Volcanoes_Erupting_Through_Thick_Blanket_of_Ice",
+  PubDate: "Sun, 25 Jan 2009 19:20:02 +0000".
+Item #26:
+  Guid: "http://digg.com/general_sciences/Lizards_Evolving_Rapidly_to_Survive_Deadly_Fire_Ants",
+  Title: "Lizards Evolving Rapidly to Survive Deadly Fire Ants",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/V9zh5rSdJ50/Lizards_Evolving_Rapidly_to_Survive_Deadly_Fire_Ants",
+  PubDate: "Sun, 25 Jan 2009 20:10:01 +0000".
+Item #27:
+  Guid: "http://digg.com/space/NASA_Gets_First_Look_at_Far_Side_of_Sun",
+  Title: "NASA Gets First Look at Far Side of Sun",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/MrHZPGcQabY/NASA_Gets_First_Look_at_Far_Side_of_Sun",
+  PubDate: "Sun, 25 Jan 2009 20:20:06 +0000".
+Item #28:
+  Guid: "http://digg.com/general_sciences/Tiny_Teeth",
+  Title: "Tiny Teeth",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/bOAoPsn0EmM/Tiny_Teeth",
+  PubDate: "Sun, 25 Jan 2009 21:20:02 +0000".
+Item #29:
+  Guid: "http://digg.com/general_sciences/Single_Brain_Cell_Can_Hold_a_Memory",
+  Title: "Single Brain Cell Can Hold a Memory.",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/UgsqbyAefyo/Single_Brain_Cell_Can_Hold_a_Memory",
+  PubDate: "Sun, 25 Jan 2009 23:20:03 +0000".
+Item #30:
+  Guid: "http://digg.com/general_sciences/Dinosaurs_could_survive_cold_conditions",
+  Title: "Dinosaurs could survive cold conditions",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/It5JcFAYAco/Dinosaurs_could_survive_cold_conditions",
+  PubDate: "Mon, 26 Jan 2009 00:20:02 +0000".
+Item #31:
+  Guid: "http://digg.com/space/17_Astronauts_Who_Paid_The_Ultimate_Price",
+  Title: "17 Astronauts Who Paid The Ultimate Price",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/kWgyApkKV9o/17_Astronauts_Who_Paid_The_Ultimate_Price",
+  PubDate: "Mon, 26 Jan 2009 02:20:02 +0000".
+Item #32:
+  Guid: "http://digg.com/environment/Obama_To_Allow_States_To_Regulate_Auto_Emissions",
+  Title: "Obama To Allow States To Regulate Auto Emissions",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Q0SvR30Hgic/Obama_To_Allow_States_To_Regulate_Auto_Emissions",
+  PubDate: "Mon, 26 Jan 2009 04:00:02 +0000".
+Item #33:
+  Guid: "http://digg.com/environment/Smuggler_Caught_With_Heads_of_353_African_Gray_Parrots",
+  Title: "Smuggler Caught With Heads of 353 African Gray Parrots",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Fs3Rona5dFg/Smuggler_Caught_With_Heads_of_353_African_Gray_Parrots",
+  PubDate: "Mon, 26 Jan 2009 05:30:03 +0000".
+Item #34:
+  Guid: "http://digg.com/environment/Row_over_scheme_to_fertilise_oceans",
+  Title: "Row over scheme to 'fertilise' oceans  ",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/khG4CiCE2d8/Row_over_scheme_to_fertilise_oceans",
+  PubDate: "Mon, 26 Jan 2009 08:30:02 +0000".
+Item #35:
+  Guid: "http://digg.com/space/Strange_Asteroid_2009_BD_Stalks_the_Earth",
+  Title: "Strange Asteroid 2009 BD Stalks the Earth",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/8ODK-PfQEKY/Strange_Asteroid_2009_BD_Stalks_the_Earth",
+  PubDate: "Mon, 26 Jan 2009 16:30:01 +0000".
+Item #36:
+  Guid: "http://digg.com/environment/Obama_Takes_Steps_to_Reverse_Bush_Climate_Policies",
+  Title: "Obama Takes Steps to Reverse Bush Climate Policies",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/llC9cMlDjPU/Obama_Takes_Steps_to_Reverse_Bush_Climate_Policies",
+  PubDate: "Mon, 26 Jan 2009 19:50:16 +0000".
+Item #37:
+  Guid: "http://digg.com/general_sciences/1_800_Year_Old_Figurine_Found_in_Jerusalem",
+  Title: "1,800-Year-Old Figurine Found in Jerusalem",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/TtfYH-Eycmc/1_800_Year_Old_Figurine_Found_in_Jerusalem",
+  PubDate: "Mon, 26 Jan 2009 21:00:01 +0000".
+Item #38:
+  Guid: "http://digg.com/environment/Manhattan_Then_and_Now_PIC",
+  Title: "Manhattan: Then and Now [PIC]",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/ymV4yc_l0Z8/Manhattan_Then_and_Now_PIC",
+  PubDate: "Mon, 26 Jan 2009 21:50:02 +0000".
+Item #39:
+  Guid: "http://digg.com/environment/World_s_highest_drug_levels_entering_India_stream",
+  Title: "World's highest drug levels entering India stream",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Nex5m15mqXI/World_s_highest_drug_levels_entering_India_stream",
+  PubDate: "Mon, 26 Jan 2009 23:50:01 +0000".
+Item #40:
+  Guid: "http://digg.com/environment/Renewable_Energy_Accounts_For_Largest_Increase_On_U_S_Grid",
+  Title: "Renewable Energy Accounts For Largest Increase On U.S. Grid.",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/Nryq6mJ65c0/Renewable_Energy_Accounts_For_Largest_Increase_On_U_S_Grid",
+  PubDate: "Tue, 27 Jan 2009 01:10:02 +0000".
+Item #41:
+  Guid: "http://digg.com/general_sciences/Trust_your_gut_Too_much_thinking_leads_to_bad_choices",
+  Title: "Trust your gut: Too much thinking leads to bad choices",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/GhPO59OcjjQ/Trust_your_gut_Too_much_thinking_leads_to_bad_choices",
+  PubDate: "Tue, 27 Jan 2009 03:00:31 +0000".
+Item #42:
+  Guid: "http://digg.com/general_sciences/Gorgeous_Shot_of_a_Jaguar_in_Brazilian_Rain_Forest",
+  Title: "Gorgeous Shot of a Jaguar in Brazilian Rain Forest",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/VriipH0Fva4/Gorgeous_Shot_of_a_Jaguar_in_Brazilian_Rain_Forest",
+  PubDate: "Tue, 27 Jan 2009 04:30:24 +0000".
+Item #43:
+  Guid: "http://digg.com/general_sciences/Epigenetics_reveals_unexpected_and_some_identical_results",
+  Title: "Epigenetics reveals unexpected, and some identical, results",
+  Link: "http://feeds.digg.com/~r/digg/container/science/popular/~3/TxeX6JwBrAc/Epigenetics_reveals_unexpected_and_some_identical_results",
+  PubDate: "Tue, 27 Jan 2009 05:30:02 +0000".
+true
+10>
